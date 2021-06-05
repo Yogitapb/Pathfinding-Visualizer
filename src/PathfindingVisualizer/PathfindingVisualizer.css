@@ -1,0 +1,61 @@
+.grid-container {
+  margin: 1% auto;
+  outline: 5 !important;
+}
+
+.grid {
+  white-space: pre;
+}
+
+button {
+  margin: 5px;
+  /* margin-right: 25px; */
+  position: center;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(134, 251, 255);
+  outline: 0 !important;
+  margin-left: 100px;
+  font-size: 15px;
+}
+
+.button1 {
+  margin: 5px;
+  /* margin-right: 25px; */
+  position: center;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 134, 134);
+  outline: 0 !important;
+  margin-left: 160px;
+  font-size: 15px;
+}
+
+.navbar {
+  padding: 5px;
+  z-index: 100;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+}
+
+
+/* 
+@media (max-width: 480px) {
+  .buttons button {
+
+    margin-right: 5px;
+    padding: 2px 5px;
+    margin: 5px 5px;
+
+  }
+} */
