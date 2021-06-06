@@ -20,9 +20,10 @@ ________________
 3. A* Algorithm
 4. Breadth First Search Algorithm
 ________________
-### `DataStructure Used`
 
-Graph<br>
+### `Data Structure Used`
+
+#### Graph <br>
 As this would be easy to visualize paths as graphs are meant to get shortest paths.</br>
 ________________
 
