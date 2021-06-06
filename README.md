@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Buffer 2.0
+### `Objective`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a react app which visualizes the various pathfinding algorithms and finds the shortest path between source and destination. It also shows execution time for each algorithm.
+________________
 
-## Available Scripts
+### `Features`
 
-In the project directory, you can run:
+- Dijkstra's , Depth first path, Breadth first path, A* are implemented using    javascript.
+- Execution time of each algorithm is calculated.
+- Source and destination are flexible and their positions can be changed.
+- Obstacles can be created between source and destination.
+- Clear walls and clear grids are also available as per our requirement.
+________________
 
-### `npm start`
+### `Algorithms implemented`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Dijkstra’s Algorithm
+2. Depth First Search Algorithm
+3. A* Algorithm
+4. Breadth First Search Algorithm
+________________
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `Team Members`
 
-### `npm test`
+1. Pooja Dendage(TY IT, CCEW)<br>
+She has implemented Dijkstra's algorithm.</br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Seema Dhamgunde(TY IT, CCEW)<br>
+She has implemented DFS.</br>
 
-### `npm run build`
+3. Yogita Bacchewar(TY IT, CCEW)<br>
+She has implemented A*.</br>
 
-Builds the app for production to the `build` folder.\
+4. Rutuja Chandegave(TY IT, CCEW)<br>
+She has implemented BFS.</br>
+
+Everyone has contributed to the frontend and syncing of algorithms in the react app.
+________________
+
+### `File Structure`
+
+1. aStar.js, bfs.js, dfs.js, dijksra.js<br>
+These files contains javascript code for respective algorithms</br>
+
+2. Node.css<br>
+This file contains the styling of the nodes and animation for searching and final paths.</br>
+
+3. Node.jsx<br>
+This contains mouse controls for the nodes.</br>
+
+4. PathfindingVisualizer.css<br>
+This includes styling of the grid, buttons and navigation bars.</br>
+
+5. PathfindingVisualizer.jsx<br>
+This is the main file which links all the algorithms, styling and mouse controls and provides us the final output.</br>
+________________
+
+### `Installation `
+
+npm start<br>
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+The page will reload if you make edits.
+You will also see any lint errors in the console.</br>
+
+npm test<br>
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.</br>
+
+npm run build<br>
+Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
+The build is minified and the filenames include the hashes.</br><br>
+Your app is ready to be deployed!</br>
+________________
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Working`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We have a 25X35 grid with two nodes representing red as source and green as destination which are flexible to be moved. 
 
-### `npm run eject`
+![WhatsApp Image 2021-06-05 at 6 10 06 PM (1)](https://user-images.githubusercontent.com/81221113/120913946-61ade300-c6b8-11eb-8cb4-76526c002900.jpeg)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+By clicking and dragging the nodes we can create walls i.e. the obstacles are shown in purple colours.
+  
+![WhatsApp Image 2021-06-05 at 6 10 06 PM](https://user-images.githubusercontent.com/81221113/120913965-7ab69400-c6b8-11eb-9737-c4f04671131a.jpeg)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+According to the algorithms four respective buttons are provided and we can click any of them to visualize the path.
+Then the searching of nodes is shown in skyblue color in the grid.
+Once the final path is detected it is shown in dark blue color.
+Execution time for the chosen algorithm is shown.
+  
+![WhatsApp Image 2021-06-05 at 6 10 07 PM](https://user-images.githubusercontent.com/81221113/120913980-90c45480-c6b8-11eb-80b4-21d5feba852a.jpeg)
+________________
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The link for the video is in this repository only along with the code files.<br>
+Name of the video is pathfindingvisualizer.mp4.</br>
