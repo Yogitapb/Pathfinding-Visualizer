@@ -20,6 +20,11 @@ ________________
 3. A* Algorithm
 4. Breadth First Search Algorithm
 ________________
+### `DataStructure Used`
+
+Graph<br>
+As this would be easy to visualize paths as graphs are meant to get shortest paths.</br>
+________________
 
 ### `Team Members`
 
@@ -93,5 +98,15 @@ Execution time for the chosen algorithm is shown.
 ![WhatsApp Image 2021-06-05 at 6 10 07 PM](https://user-images.githubusercontent.com/81221113/120913980-90c45480-c6b8-11eb-80b4-21d5feba852a.jpeg)
 ________________
 
-The link for the video is in this repository only along with the code files.<br>
-Name of the video is pathfindingvisualizer.mp4.</br>
+### `Learnings`
+
+We tried to work on a new technology that is React.js. Along with that we learned to implement animation using javascript.
+________________
+
+### `Next for the Project`
+
+- We can implement many more pathfinding algorithms.
+- Further on this project we'll try to adjust the grid according to device we are opening the project on i.e. the mobile view and desktop view.
+- Also we can turn this into a game as well by adding bombs in the nodes.
+________________
+
